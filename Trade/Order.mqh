@@ -12,7 +12,7 @@ interface OrderMatcher
    bool matches();
   };
 
-const string OrderTypeString[]={"buy","sell","buy limit","sell simit","buy stop","sell stop"};
+const string OrderTypeString[]={"buy","sell","buy limit","sell limit","buy stop","sell stop"};
 //+------------------------------------------------------------------+
 //| Order (immutable)                                                |
 //| Creating a new Order captures all properties of a current        |

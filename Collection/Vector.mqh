@@ -20,7 +20,7 @@ public:
 
    // Iterator interface
    Iterator<T>*iterator() const {return new VectorIterator<T>(this);}
-
+   
    // Collection interface
    void              clear() {m_array.clear();}
    int               size() const {return m_array.size();}

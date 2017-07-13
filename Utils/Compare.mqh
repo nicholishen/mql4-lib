@@ -30,7 +30,7 @@ class Compare
    template<typename T>
    static bool inRangeCloseClose(T value,T lowerBound,T upperBound)
      {
-      return value >= lowerBound && v < upperBound;
+      return value >= lowerBound && v <= upperBound;
      }
   };
 //+------------------------------------------------------------------+
